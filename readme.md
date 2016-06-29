@@ -76,7 +76,11 @@ So...
 
 	List<String> myList = new ArrayList<>();
 
-...is an ArrayList named myList. This ArrayList named myList has many of the same properties as ArrayList's parent class List.
+...is an ArrayList named myList. This ArrayList named myList has many of the same properties as ArrayList's parent class List. This is the same for...
+
+  List<String> myList = new LinkedList<>();
+
+...a LinkedList named myList. This LinkedList named myList has many of the same properties as LinkedList's parent class List. However, LinkedList and ArrayList cannot call each other's unique methods.
 
 #### Deliverable
 
